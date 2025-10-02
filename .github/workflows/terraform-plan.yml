@@ -16,7 +16,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Terraform Plan
-        run: 
+        run: |
           terraform init
           terraform validate
           terraform plan

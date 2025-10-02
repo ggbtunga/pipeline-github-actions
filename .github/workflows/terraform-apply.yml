@@ -16,6 +16,6 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Terraform Apply
-        run: 
+        run: |
           terraform init
           terraform apply -auto-approve
