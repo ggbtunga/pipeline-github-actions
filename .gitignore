@@ -1,0 +1,5 @@
+aws-key*
+.terraform*
+*.tfstate*
+*.tfvars
+*.out
